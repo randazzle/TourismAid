@@ -1,0 +1,12 @@
+TO INSTALL
+
+npm install antd
+
+npm install axios
+
+
+
+npm install react-router-dom
+
+
+pip install django-cors-headers
