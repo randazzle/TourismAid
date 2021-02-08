@@ -17,6 +17,7 @@ class ArticleList extends React.Component {
                 });
                 console.log(res.data);
             })
+
     }
 
     render() {

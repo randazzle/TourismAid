@@ -22,10 +22,16 @@ class ArticleDetail extends React.Component {
 
     render() {
         return (
-            <Card title={this.state.article.title}
-            cover={<img alt="example" src={this.state.article.img1}></img>}>
+            <div>
+                <h1>{this.state.article.title}</h1>
                 <p>{this.state.article.body2}</p>
-            </Card>
+            </div>
+            
+
+            // <Card title={this.state.article.title}
+            // cover={<img alt="example" src={this.state.article.img1}></img>}>
+            //     <p>{this.state.article.body2}</p>
+            // </Card>
         )
     }
 }
