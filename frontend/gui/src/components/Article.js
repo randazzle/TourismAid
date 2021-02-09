@@ -13,14 +13,7 @@ const IconText = ({ icon, text }) => (
 
 
 const Articles = (props) => {
-    return(
-      // <ListItem key={props.id}/>
-      //   {props.title}
-
-      // )
-
-    
-    
+    return( 
           // <List
           //   itemLayout="vertical"
           //   size="large"
