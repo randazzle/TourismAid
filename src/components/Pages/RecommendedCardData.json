@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "title":"Bhaktapur",
+        "image":"bhaktapur.jpg"
+    },
+    {
+        "id": "2",
+        "title":"Chitwan",
+        "image":"chitwan.jpg"
+    },
+    {
+        "id": "3",
+        "title":"Pokhara",
+        "image":"pokhara.jpg"
+    }
+]

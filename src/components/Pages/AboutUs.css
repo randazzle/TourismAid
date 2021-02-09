@@ -1,0 +1,32 @@
+.xyz{
+    background: linear-gradient(45deg, #ffff 1%, #C0C0C0 1%, #C0C0C0 49%, #ffff 49%, #ffff 51%, #C0C0C0 51%, #C0C0C0 99%, #ffff 99%);
+    background-size: 6px 6px;
+    background-position: 50px 50px;
+    width: 100hw;
+    height: 88vh;
+    padding: 20px;
+    padding-top: 20px;
+}
+.abt{
+    margin: 10px;
+    /* font-size: 25px; */
+    font-size: 45px;
+    font-family:'Lucida Sans';
+    text-shadow: black 0px 7px 5px;
+}
+.ta{
+    text-align: center;
+    
+}
+.pa{
+    margin : 10px;
+    font-size: 25px;
+}
+.lin{
+    width:100hw;
+    height: 1px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    opacity: .5;
+    background-image: linear-gradient(to right, black ,black,black ,black,black ,black,black ,black ,black,black,rgb(0,0,0,0),rgb(0,0,0,0),rgb(0,0,0,0));
+}

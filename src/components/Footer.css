@@ -1,0 +1,17 @@
+.footer{
+    background-color:rgb(3, 3, 3);
+    text-align: center;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+    
+    
+    
+}
+.ln{
+    height: 2px;
+}

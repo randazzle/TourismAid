@@ -1,0 +1,180 @@
+
+    
+/* entire nav bar background */
+.navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    /* background-image: linear-gradient(to right , black , rgb(87, 85, 85),black,black, black ,black , rgb(110, 108, 108)); */
+    background-color: black;
+    height: 47px;
+    justify-content: space-between;
+    z-index :2;
+    
+    
+     
+    
+    
+}
+.arrangelogo {
+    vertical-align: center; 
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+    border: black solid 1px;
+    opacity: .9;
+    
+}
+/* search icon */
+.b{
+    color: rgb(133, 131, 131);
+    margin-right: 8px;
+    /* margin-top: 25px; */
+    
+}
+.b:hover{
+    color: rgb(53, 53, 53);
+}
+.pannel{
+    display: flex;
+    /* justify-content: right; */
+    /* padding: 5px;   */
+    font-size: 12;
+    top:0; 
+    margin-top: 5.5px;     
+    margin-right: 6px;
+}
+
+/* for home login etc */
+nav .nav-links {
+    /* margin: 20px;
+    padding: 2px; */
+    margin-top: 0px;
+    top:0 ;
+    display: flex;
+    padding: 5px;
+    
+     
+     
+     
+}  
+/* styling search bar */
+.search {
+   
+    border:none;
+    font-family: 'PT Snes', sans-serif;
+    width: 300 px;
+    height: 18px;
+    margin-left: 5px;
+    background-color: none;
+    /* margin-top: -3px; */
+    background: none;
+    outline: none; 
+    opacity: .9;      
+}
+.search:hover {
+    opacity: 1;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    border: none;
+    opacity: .9; /* Firefox */
+  }
+  
+.arrangelogo:hover{
+    box-shadow: 0px 1px 20px black;
+    background-color: white;
+    opacity: 1.1;
+}
+nav .nav-links a{
+    margin: 20px;
+    font-family: 'PT Sans', sans-serif;
+    color: silver;
+}
+/* hover edits */
+nav .nav-links a:hover{
+    width: 32%;
+    color: white;
+    /* background-color: gray; 
+    border-radius: 2px 2px 2px 2px; */
+
+}
+
+/* only burger menu */
+nav .burger  {      
+    font-size: 25px;
+    color: whitesmoke; 
+    margin-top: 9px;
+    display: none;
+
+}    
+/* only for colour or home login etc */
+.a{
+    
+    color: whitesmoke;
+    
+
+}
+nav .logo
+{
+    margin-left: 10px;
+    opacity: .9;
+
+    
+}
+nav .logo:hover
+{
+    opacity: 1;
+    
+
+    
+}
+/* nav .nav-links li:last-of-type{
+    font-size: 20px;
+    
+} */
+nav{
+    display:flex ;
+    box-shadow: 0px 10px 13px rgb(34, 33, 33);
+    
+    
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* for tablet view */
+@media all and (max-width: 768px){
+    nav .burger{
+        display: block;
+        margin-right: 16px;
+        cursor: pointer;
+    }
+    nav .nav-links{
+        
+        position: absolute;
+        display: block;
+        top:47px;
+        right:0;
+        
+        background:rgb(0, 0, 0) ;
+        width: 40%;
+        transform: translateY(-1000px);
+        transition:.5s ease-in-out ;
+        
+        border-radius: 0px 0px 2px 30px;
+    }
+    nav .nav-links li {
+        border-bottom:1px groove silver ;
+        padding: 25px;
+
+    }
+    nav .nav-links li:last-of-type{
+        border-bottom:0px solid silver ;
+        
+
+    }
+}

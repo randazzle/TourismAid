@@ -1,0 +1,59 @@
+.tit{
+    position: relative;
+    color: silver;
+    font-family:  sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 280px;
+    
+}
+.tit:hover{
+    color: white;
+}
+.z{
+    width: 280px;
+    height: 380px;
+    border-radius: 20px;
+    opacity: 2;
+    
+    
+}
+.z:hover{
+    
+    box-shadow: 0px 10px 20px black;
+    opacity: .8;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    text-overflow: ellipsis;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 280px;
+    height: 380px;
+    border-radius: 20px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color:rgba(3, 3, 3, 0.68);
+    overflow: hidden;
+  }
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  .icon {
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
