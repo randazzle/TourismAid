@@ -8,7 +8,7 @@ import Recomendations from './components/Pages/Recomendations';
 import Reviewed from './components/Pages/Reviewed';
 import AboutUs from './components/Pages/AboutUs';
 import Bookmarks from './components/Pages/Bookmarks';
-
+import choose from './components/Pages/choose';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
            <Switch>
             <Route exact path='/'  component={Intro} />
             <Route path='/home'  component={Home} />
-            
+            <Route path='/choose'  component={choose} />
             <Route path='/bookmarks'  component={Bookmarks} />
             <Route path='/reviewed'  component={Reviewed} />
             <Route path='/aboutus'  component={AboutUs} />

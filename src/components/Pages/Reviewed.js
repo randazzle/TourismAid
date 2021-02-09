@@ -17,7 +17,7 @@ export default function Reviewed() {
                     
                  
             </div>  
-            <Footer />          
+                     
         </div>
         <Footer /> 
         </>    

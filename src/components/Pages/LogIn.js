@@ -29,7 +29,7 @@ class Login extends Component {
                     <div className="ln" >
                         <hr className="hr" />
                     </div>
-                    <form onSubmit = {this.handlesubmit}>
+                    <form onSubmit = {this.handlesubmit} action="choose">
                         {/* <label>Name</label><br/>
                         <input className="inf" type="text" name="name" value={this.state.name}
                         onChange={this.handlechangeall} /><br/> */}
@@ -46,7 +46,7 @@ class Login extends Component {
                         <input className="inf" type="password" name="password" value={this.state.password}
                         onChange={this.handlechangeall} />
 
-                        <input type="submit" className="bt" value="Login"/>
+                        <input type="submit" className="bt" value="Login" onclick="location.href='choose' ;" />
                     </form>
                 </div>
                 <br/>

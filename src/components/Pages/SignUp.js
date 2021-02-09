@@ -29,7 +29,7 @@ class SignUp extends Component {
                     <div className="ln" >
                         <hr className="hr" />
                     </div>
-                    <form onSubmit = {this.handlesubmit}>
+                    <form onSubmit = {this.handlesubmit} action="choose">
                         <label>Name</label><br/>
                         <input className="inf" type="text" name="name" value={this.state.name}
                         onChange={this.handlechangeall} /><br/>
