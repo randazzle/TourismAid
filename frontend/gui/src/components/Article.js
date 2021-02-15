@@ -53,9 +53,11 @@ const Articles = (props) => {
       {props.data.map(item => (
         <div>
           {/* <p>{item.id}</p> */}
+          <li key={item.id}>
           <p><a href={`/${item.id}`}>{item.title}</a></p>
           <p>{item.body}</p>
           <p><img width='272' src={item.thumb}/></p>
+          </li>
         </div>
       ))}   
       {/* LOOP END */}
